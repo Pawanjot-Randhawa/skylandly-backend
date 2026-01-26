@@ -1,0 +1,254 @@
+{
+  "Air Strike": {
+    "gender": "male",
+    "element": "Air",
+    "game": "imaginators",
+    "species": "blue zephyr falcon"
+  },
+  "Bad Juju": {
+    "gender": "female",
+    "element": "Air",
+    "game": "trap_team",
+    "species": "witch doctor spirit"
+  },
+  "Blades": {
+    "gender": "male",
+    "element": "Air",
+    "game": "trap_team",
+    "species": "dragon"
+  },
+  "Boom Jet": {
+    "gender": "male",
+    "element": "Air",
+    "game": "swap_force",
+    "species": "human"
+  },
+  "Breeze": {
+    "gender": "female",
+    "element": "Air",
+    "game": "trap_team",
+    "species": "unicorn/dragon hybrid"
+  },
+  "Fling Kong": {
+    "gender": "male",
+    "element": "Air",
+    "game": "trap_team",
+    "species": "monkey"
+  },
+  "Free Ranger": {
+    "gender": "male",
+    "element": "Air",
+    "game": "swap_force",
+    "species": "storm chicken"
+  },
+  "Gusto": {
+    "gender": "male",
+    "element": "Air",
+    "game": "trap_team",
+    "species": "cloud giant"
+  },
+  "Jet-Vac": {
+    "gender": "male",
+    "element": "Air",
+    "game": "giants",
+    "species": "sky baron"
+  },
+  "Hurricane Jet-Vac": {
+    "gender": "male",
+    "element": "Air",
+    "game": "superchargers",
+    "species": "sky baron"
+  },
+  "Lightning Rod": {
+    "gender": "male",
+    "element": "Air",
+    "game": "spyros_adventure",
+    "species": "storm giant"
+  },
+  "Pet-Vac": {
+    "gender": "male",
+    "element": "Air",
+    "game": "trap_team",
+    "species": "sky baron"
+  },
+  "Pop Thorn": {
+    "gender": "male",
+    "element": "Air",
+    "game": "swap_force",
+    "species": "pufferthorn"
+  },
+  "Scratch": {
+    "gender": "female",
+    "element": "Air",
+    "game": "swap_force",
+    "species": "sphinx"
+  },
+  "Sonic Boom": {
+    "gender": "female",
+    "element": "Air",
+    "game": "spyros_adventure",
+    "species": "griffin"
+  },
+  "Stormblade": {
+    "gender": "female",
+    "element": "Air",
+    "game": "superchargers",
+    "species": "sky baron"
+  },
+  "Swarm": {
+    "gender": "male",
+    "element": "Air",
+    "game": "giants",
+    "species": "insectoid"
+  },
+  "Thunderbolt": {
+    "gender": "male",
+    "element": "Air",
+    "game": "trap_team",
+    "species": "cloud giant"
+  },
+  "Warnado": {
+    "gender": "male",
+    "element": "Air",
+    "game": "spyros_adventure",
+    "species": "turtle"
+  },
+  "Whirlwind": {
+    "gender": "female",
+    "element": "Air",
+    "game": "spyros_adventure",
+    "species": "unicorn/dragon hybrid"
+  },
+  "Wild Storm": {
+    "gender": "male",
+    "element": "Air",
+    "game": "imaginators",
+    "species": "storm giant"
+  },
+  "Barbella": {
+    "gender": "female",
+    "element": "Earth",
+    "game": "imaginators",
+    "species": "crystalline golem"
+  },
+  "Bash": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "spyros_adventure",
+    "species": "dragon"
+  },
+  "Bop": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "trap_team",
+    "species": "dragon"
+  },
+  "Crusher": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "giants",
+    "species": "rock golem"
+  },
+  "Dino-Rang": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "spyros_adventure",
+    "species": "dinosaur"
+  },
+  "Doom Stone": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "swap_force",
+    "species": "stone statue"
+  },
+  "Fist Bump": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "trap_team",
+    "species": "rock panda"
+  },
+  "Flashwing": {
+    "gender": "female",
+    "element": "Earth",
+    "game": "giants",
+    "species": "crystal dragon"
+  },
+  "Golden Queen": {
+    "gender": "female",
+    "element": "Earth",
+    "game": "trap_team",
+    "species": "sentient gold statue"
+  },
+  "Head Rush": {
+    "gender": "female",
+    "element": "Earth",
+    "game": "trap_team",
+    "species": "elf"
+  },
+  "Prism Break": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "spyros_adventure",
+    "species": "rock golem"
+  },
+  "Rocky Roll": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "trap_team",
+    "species": "rock"
+  },
+  "Rubble Rouser": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "swap_force",
+    "species": "rock golem"
+  },
+  "Scorp": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "swap_force",
+    "species": "scorpion"
+  },
+  "Slobber Tooth": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "swap_force",
+    "species": "dinosaur"
+  },
+  "Smash Hit": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "superchargers",
+    "species": "warsropod"
+  },
+  "Terrabite": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "trap_team",
+    "species": "shark"
+  },
+  "Terrafin": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "spyros_adventure",
+    "species": "shark"
+  },
+  "Shark Shooter Terrafin": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "superchargers",
+    "species": "shark"
+  },
+  "Tri-Tip": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "imaginators",
+    "species": "triceratops"
+  },
+  "Wallop": {
+    "gender": "male",
+    "element": "Earth",
+    "game": "trap_team",
+    "species": "earth giant"
+  }
+}
