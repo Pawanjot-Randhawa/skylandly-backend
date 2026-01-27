@@ -1,8 +1,20 @@
+import logging
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from core.config import settings
 from routers import game
+from services.skylanders_data import SkylandersDataService
+
+logging.basicConfig(level=logging.DEBUG)
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup actions
+    SkylandersDataService.load_data()
+    yield
+    # Shutdown actions
 
 app = FastAPI(
     title="Skylandly Backend",
@@ -10,6 +22,7 @@ app = FastAPI(
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc",
+    lifespan=lifespan,
 )
 
 app.add_middleware(

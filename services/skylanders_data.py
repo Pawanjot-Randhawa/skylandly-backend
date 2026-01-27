@@ -1,33 +1,34 @@
 # services/skylanders_data.py
 import json
+import logging
 from pathlib import Path
 from typing import Dict, List, Optional
 from schemas.skylanders import SkylanderInfo
 
+logger = logging.getLogger(__name__)
+
 class SkylandersDataService:
     """Service for loading and managing Skylanders data"""
     
-    _instance = None
     _data: Dict[str, SkylanderInfo] = {}
     _loaded = False
-    
-    def __new__(cls):
-        """Singleton pattern - ensures only one instance"""
-        if cls._instance is None:
-            cls._instance = super().__new__(cls)
-        return cls._instance
     
     @classmethod
     def load_data(cls) -> None:
         """Load Skylanders data from JSON file into memory"""
         if cls._loaded:
+            logger.info("Skylanders data already loaded.")
             return
         
         data_path = Path(__file__).parent.parent / "data" / "skylandersdb.json"
+        logger.info(f"Loading Skylanders from: {data_path}")
         
         try:
             with open(data_path, 'r') as f:
                 raw_data = json.load(f)
+            
+            logger.info(f"Raw JSON contains: {len(raw_data)} entries")
+            cls._data.clear()
             
             # Convert raw JSON to SkylanderInfo objects
             for name, attributes in raw_data.items():
@@ -40,13 +41,13 @@ class SkylandersDataService:
                 )
             
             cls._loaded = True
-            print(f"✓ Loaded {len(cls._data)} Skylanders")
+            logger.info(f"✓ Loaded {len(cls._data)} Skylanders into memory")
         
         except FileNotFoundError:
-            print(f"✗ Error: skylandersdb.json not found at {data_path}")
+            logger.error(f"✗ Error: skylandersdb.json not found at {data_path}")
             raise
         except Exception as e:
-            print(f"✗ Error loading Skylanders data: {e}")
+            logger.error(f"✗ Error loading Skylanders data: {e}", exc_info=True)
             raise
     
     @classmethod
@@ -75,7 +76,9 @@ class SkylandersDataService:
         """Check if a Skylander name exists"""
         if not cls._loaded:
             cls.load_data()
-        return name.lower() in cls._data
+        is_valid = name.lower() in cls._data
+        logger.debug(f"Validating '{name}': {is_valid} (total skylanders: {len(cls._data)})")
+        return is_valid
     
     @classmethod
     def get_skylanders_by_element(cls, element: str) -> List[SkylanderInfo]:

@@ -1,10 +1,16 @@
 from pydantic import BaseModel
 from typing import Optional
 
+class AttributeComparison(BaseModel):
+    value: str
+    is_correct: bool
+
 class CompareResult(BaseModel):
-    element: str
-    gender: str
-    game: str
+    name: AttributeComparison
+    element: AttributeComparison
+    gender: AttributeComparison
+    game: AttributeComparison
+
 class GuessRequest(BaseModel):
     skylander_name: str
     image_url: Optional[str] = None
