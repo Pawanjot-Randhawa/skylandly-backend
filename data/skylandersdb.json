@@ -8,7 +8,7 @@
   "Bad Juju": {
     "gender": "female",
     "element": "Air",
-    "game": "trap_team",
+    "game": "imaginators",
     "species": "witch doctor spirit"
   },
   "Blades": {
@@ -51,12 +51,6 @@
     "gender": "male",
     "element": "Air",
     "game": "giants",
-    "species": "sky baron"
-  },
-  "Hurricane Jet-Vac": {
-    "gender": "male",
-    "element": "Air",
-    "game": "superchargers",
     "species": "sky baron"
   },
   "Lightning Rod": {
@@ -233,12 +227,6 @@
     "game": "spyros_adventure",
     "species": "shark"
   },
-  "Shark Shooter Terrafin": {
-    "gender": "male",
-    "element": "Earth",
-    "game": "superchargers",
-    "species": "shark"
-  },
   "Tri-Tip": {
     "gender": "male",
     "element": "Earth",
@@ -250,5 +238,773 @@
     "element": "Earth",
     "game": "trap_team",
     "species": "earth giant"
+  },
+  "Blast Zone": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "swap_force",
+    "species": "knight"
+  },
+  "Ember": {
+    "gender": "female",
+    "element": "Fire",
+    "game": "imaginators",
+    "species": "sentinel"
+  },
+  "Eruptor": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "spyros_adventure",
+    "species": "lava monster"
+  },
+  "Fire Kraken": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "swap_force",
+    "species": "dragon"
+  },
+  "Flameslinger": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "spyros_adventure",
+    "species": "elf"
+  },
+  "Flare Wolf": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "imaginators",
+    "species": "wolf"
+  },
+  "Fryno": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "swap_force",
+    "species": "rhino"
+  },
+  "Hammer Slam Bowser": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "superchargers",
+    "species": "koopa"
+  },
+  "Hot Dog": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "giants",
+    "species": "dog"
+  },
+  "Hot Head": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "giants",
+    "species": "fire giant"
+  },
+  "Ignitor": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "spyros_adventure",
+    "species": "spirit in armor"
+  },
+  "Ka-Boom": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "trap_team",
+    "species": "unknown"
+  },
+  "Small Fry": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "trap_team",
+    "species": "rhino"
+  },
+  "Smolderdash": {
+    "gender": "female",
+    "element": "Fire",
+    "game": "swap_force",
+    "species": "sun elf"
+  },
+  "Spitfire": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "superchargers",
+    "species": "spirit of flame"
+  },
+  "Sunburn": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "spyros_adventure",
+    "species": "dragon/phoenix hybrid"
+  },
+  "Tae Kwon Crow": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "imaginators",
+    "species": "crow"
+  },
+  "Torch": {
+    "gender": "female",
+    "element": "Fire",
+    "game": "trap_team",
+    "species": "humanoid"
+  },
+  "Trail Blazer": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "trap_team",
+    "species": "unicorn"
+  },
+  "Weeruptor": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "trap_team",
+    "species": "lava monster"
+  },
+  "Wildfire": {
+    "gender": "male",
+    "element": "Fire",
+    "game": "trap_team",
+    "species": "lion"
+  },
+  "Ambush": {
+    "gender": "male",
+    "element": "Life",
+    "game": "imaginators",
+    "species": "bamboo warrior"
+  },
+  "Barkley": {
+    "gender": "male",
+    "element": "Life",
+    "game": "trap_team",
+    "species": "tree"
+  },
+  "Boom Bloom": {
+    "gender": "female",
+    "element": "Life",
+    "game": "imaginators",
+    "species": "mutated flower"
+  },
+  "Bumble Blast": {
+    "gender": "male",
+    "element": "Life",
+    "game": "swap_force",
+    "species": "ent/bee hive hybrid"
+  },
+  "Bushwhack": {
+    "gender": "male",
+    "element": "Life",
+    "game": "trap_team",
+    "species": "tree elf"
+  },
+  "Camo": {
+    "gender": "male",
+    "element": "Life",
+    "game": "spyros_adventure",
+    "species": "dragon/plant hybrid"
+  },
+  "Chompy Mage": {
+    "gender": "male",
+    "element": "Life",
+    "game": "imaginators",
+    "species": "human"
+  },
+  "Crash Bandicoot": {
+    "gender": "male",
+    "element": "Life",
+    "game": "imaginators",
+    "species": "bandicoot"
+  },
+  "Food Fight": {
+    "gender": "male",
+    "element": "Life",
+    "game": "trap_team",
+    "species": "artichoke"
+  },
+  "Grilla Drilla": {
+    "gender": "male",
+    "element": "Life",
+    "game": "swap_force",
+    "species": "gorilla"
+  },
+  "High Five": {
+    "gender": "male",
+    "element": "Life",
+    "game": "trap_team",
+    "species": "dragonfly"
+  },
+  "Shroomboom": {
+    "gender": "male",
+    "element": "Life",
+    "game": "giants",
+    "species": "mushroom"
+  },
+  "Stealth Elf": {
+    "gender": "female",
+    "element": "Life",
+    "game": "spyros_adventure",
+    "species": "elf"
+  },
+  "Stink Bomb": {
+    "gender": "male",
+    "element": "Life",
+    "game": "swap_force",
+    "species": "skunk"
+  },
+  "Stump Smash": {
+    "gender": "male",
+    "element": "Life",
+    "game": "spyros_adventure",
+    "species": "tree"
+  },
+  "Thrillipede": {
+    "gender": "male",
+    "element": "Life",
+    "game": "superchargers",
+    "species": "millipede"
+  },
+  "Tree Rex": {
+    "gender": "male",
+    "element": "Life",
+    "game": "giants",
+    "species": "tree giant"
+  },
+  "Tuff Luck": {
+    "gender": "female",
+    "element": "Life",
+    "game": "trap_team",
+    "species": "cat"
+  },
+  "Turbo Charge Donkey Kong": {
+    "gender": "male",
+    "element": "Life",
+    "game": "superchargers",
+    "species": "gorilla"
+  },
+  "Whisper Elf": {
+    "gender": "female",
+    "element": "Life",
+    "game": "trap_team",
+    "species": "elf"
+  },
+  "Zoo Lou": {
+    "gender": "male",
+    "element": "Life",
+    "game": "swap_force",
+    "species": "bear"
+  },
+  "Zook": {
+    "gender": "male",
+    "element": "Life",
+    "game": "spyros_adventure",
+    "species": "bambazooker"
+  },
+  "Blastermind": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "trap_team",
+    "species": "troll"
+  },
+  "Buckshot": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "imaginators",
+    "species": "faun"
+  },
+  "Cobra Cadabra": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "trap_team",
+    "species": "snake"
+  },
+  "Deja Vu": {
+    "gender": "female",
+    "element": "Magic",
+    "game": "trap_team",
+    "species": "spell punk"
+  },
+  "Double Trouble": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "spyros_adventure",
+    "species": "humanoid"
+  },
+  "Dune Bug": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "swap_force",
+    "species": "beetle"
+  },
+  "Enigma": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "trap_team",
+    "species": "unknown"
+  },
+  "Hoot Loop": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "swap_force",
+    "species": "owl"
+  },
+  "Mini-Jini": {
+    "gender": "female",
+    "element": "Magic",
+    "game": "trap_team",
+    "species": "genie"
+  },
+  "Mysticat": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "imaginators",
+    "species": "sphinx"
+  },
+  "Ninjini": {
+    "gender": "female",
+    "element": "Magic",
+    "game": "giants",
+    "species": "genie"
+  },
+  "Pain-Yatta": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "imaginators",
+    "species": "piñata"
+  },
+  "Pop Fizz": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "giants",
+    "species": "gremlin"
+  },
+  "Spry": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "trap_team",
+    "species": "dragon"
+  },
+  "Spyro": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "spyros_adventure",
+    "species": "dragon"
+  },
+  "Star Strike": {
+    "gender": "female",
+    "element": "Magic",
+    "game": "swap_force",
+    "species": "unknown"
+  },
+  "Trap Shadow": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "swap_force",
+    "species": "unknown"
+  },
+  "Voodood": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "spyros_adventure",
+    "species": "orc"
+  },
+  "Wrecking Ball": {
+    "gender": "male",
+    "element": "Magic",
+    "game": "spyros_adventure",
+    "species": "unknown"
+  },
+  "Boomer": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "spyros_adventure",
+    "species": "troll"
+  },
+  "Bouncer": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "giants",
+    "species": "robot"
+  },
+  "Chain Reaction": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "imaginators",
+    "species": "rat"
+  },
+  "Chopper": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "trap_team",
+    "species": "dinosaur"
+  },
+  "Countdown": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "swap_force",
+    "species": "bomb"
+  },
+  "Dr. Krankcase": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "imaginators",
+    "species": "evilikin"
+  },
+  "Dr. Neo Cortex": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "imaginators",
+    "species": "human"
+  },
+  "Drill Sergeant": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "spyros_adventure",
+    "species": "arkeyan robot"
+  },
+  "Drobit": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "trap_team",
+    "species": "dragon"
+  },
+  "Drobot": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "spyros_adventure",
+    "species": "dragon"
+  },
+  "Gearshift": {
+    "gender": "female",
+    "element": "Tech",
+    "game": "trap_team",
+    "species": "robot"
+  },
+  "High Volt": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "superchargers",
+    "species": "humanoid"
+  },
+  "Jawbreaker": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "trap_team",
+    "species": "robot"
+  },
+  "Magna Charge": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "swap_force",
+    "species": "robot"
+  },
+  "Ro-Bow": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "imaginators",
+    "species": "robot"
+  },
+  "Robi": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "trap_team",
+    "species": "robot"
+  },
+  "Sprocket": {
+    "gender": "female",
+    "element": "Tech",
+    "game": "giants",
+    "species": "goldling"
+  },
+  "Spy Rise": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "swap_force",
+    "species": "robot spider"
+  },
+  "Thread Head": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "trap_team",
+    "species": "unknown"
+  },
+  "Trigger Happy": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "spyros_adventure",
+    "species": "gremlin"
+  },
+  "Trigger Snappy": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "trap_team",
+    "species": "gremlin"
+  },
+  "Wind-up": {
+    "gender": "male",
+    "element": "Tech",
+    "game": "swap_force",
+    "species": "robot"
+  },
+  "Bat Spin": {
+    "gender": "female",
+    "element": "Undead",
+    "game": "trap_team",
+    "species": "vampire"
+  },
+  "Chop Chop": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "spyros_adventure",
+    "species": "arkeyan skeleton"
+  },
+  "Chopscotch": {
+    "gender": "female",
+    "element": "Undead",
+    "game": "imaginators",
+    "species": "skeleton"
+  },
+  "Cynder": {
+    "gender": "female",
+    "element": "Undead",
+    "game": "spyros_adventure",
+    "species": "dragon"
+  },
+  "Eye-Brawl": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "giants",
+    "species": "eyeball/headless giant hybrid"
+  },
+  "Fiesta": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "superchargers",
+    "species": "skeleton"
+  },
+  "Fright Rider": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "giants",
+    "species": "elf/ostrich hybrid"
+  },
+  "Funny Bone": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "trap_team",
+    "species": "skeleton dog"
+  },
+  "Ghost Roaster": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "spyros_adventure",
+    "species": "ghost"
+  },
+  "Grim Creeper": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "swap_force",
+    "species": "grim reaper"
+  },
+  "Hex": {
+    "gender": "female",
+    "element": "Undead",
+    "game": "spyros_adventure",
+    "species": "elf/witch"
+  },
+  "Krypt King": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "trap_team",
+    "species": "spirit in armor"
+  },
+  "Night Shift": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "swap_force",
+    "species": "vampire"
+  },
+  "Pit Boss": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "imaginators",
+    "species": "snake"
+  },
+  "Roller Brawl": {
+    "gender": "female",
+    "element": "Undead",
+    "game": "swap_force",
+    "species": "vampire"
+  },
+  "Short Cut": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "trap_team",
+    "species": "unknown"
+  },
+  "Wolfgang": {
+    "gender": "male",
+    "element": "Undead",
+    "game": "trap_team",
+    "species": "werewolf"
+  },
+  "Chill": {
+    "gender": "female",
+    "element": "Water",
+    "game": "giants",
+    "species": "human"
+  },
+  "Dive-Clops": {
+    "gender": "male",
+    "element": "Water",
+    "game": "superchargers",
+    "species": "eyeball"
+  },
+  "Echo": {
+    "gender": "female",
+    "element": "Water",
+    "game": "trap_team",
+    "species": "seahorse"
+  },
+  "Freeze Blade": {
+    "gender": "male",
+    "element": "Water",
+    "game": "swap_force",
+    "species": "walrus"
+  },
+  "Gill Grunt": {
+    "gender": "male",
+    "element": "Water",
+    "game": "spyros_adventure",
+    "species": "gillman"
+  },
+  "Gill Runt": {
+    "gender": "male",
+    "element": "Water",
+    "game": "trap_team",
+    "species": "gillman"
+  },
+  "Grave Clobber": {
+    "gender": "male",
+    "element": "Water",
+    "game": "imaginators",
+    "species": "mummy"
+  },
+  "King Pen": {
+    "gender": "male",
+    "element": "Water",
+    "game": "imaginators",
+    "species": "penguin"
+  },
+  "Lob-Star": {
+    "gender": "male",
+    "element": "Water",
+    "game": "trap_team",
+    "species": "lobster"
+  },
+  "Punk Shock": {
+    "gender": "female",
+    "element": "Water",
+    "game": "swap_force",
+    "species": "eel"
+  },
+  "Rip Tide": {
+    "gender": "male",
+    "element": "Water",
+    "game": "swap_force",
+    "species": "gillman"
+  },
+  "Slam Bam": {
+    "gender": "male",
+    "element": "Water",
+    "game": "spyros_adventure",
+    "species": "yeti"
+  },
+  "Snap Shot": {
+    "gender": "male",
+    "element": "Water",
+    "game": "trap_team",
+    "species": "crocogator"
+  },
+  "Thumpback": {
+    "gender": "male",
+    "element": "Water",
+    "game": "giants",
+    "species": "whale"
+  },
+  "Tidepool": {
+    "gender": "female",
+    "element": "Water",
+    "game": "imaginators",
+    "species": "mollusk"
+  },
+  "Wash Buckler": {
+    "gender": "male",
+    "element": "Water",
+    "game": "swap_force",
+    "species": "merman"
+  },
+  "Wham-Shell": {
+    "gender": "male",
+    "element": "Water",
+    "game": "spyros_adventure",
+    "species": "crustacean"
+  },
+  "Zap": {
+    "gender": "male",
+    "element": "Water",
+    "game": "spyros_adventure",
+    "species": "dragon"
+  },
+  "Blackout": {
+    "gender": "male",
+    "element": "Dark",
+    "game": "trap_team",
+    "species": "dragon"
+  },
+  "Knight Mare": {
+    "gender": "female",
+    "element": "Dark",
+    "game": "trap_team",
+    "species": "centaur"
+  },
+  "Nightfall": {
+    "gender": "female",
+    "element": "Dark",
+    "game": "superchargers",
+    "species": "dark hollow"
+  },
+  "Starcast": {
+    "gender": "male",
+    "element": "Dark",
+    "game": "imaginators",
+    "species": "astral being"
+  },
+  "Aurora": {
+    "gender": "female",
+    "element": "Light",
+    "game": "imaginators",
+    "species": "human"
+  },
+  "Astroblast": {
+    "gender": "male",
+    "element": "Light",
+    "game": "superchargers",
+    "species": "astral light being"
+  },
+  "Blaster-Tron": {
+    "gender": "male",
+    "element": "Light",
+    "game": "imaginators",
+    "species": "robot"
+  },
+  "Knight Light": {
+    "gender": "male",
+    "element": "Light",
+    "game": "trap_team",
+    "species": "angel"
+  },
+  "Spotlight": {
+    "gender": "female",
+    "element": "Light",
+    "game": "trap_team",
+    "species": "dragon"
   }
 }
