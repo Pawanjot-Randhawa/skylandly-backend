@@ -25,3 +25,6 @@ class SkylanderInfo(BaseModel):
     gender: str
     game: str
     species: str
+
+class YesterdaySkylanderResponse(BaseModel):
+    skylander_name: str
