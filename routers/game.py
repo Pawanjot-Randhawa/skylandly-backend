@@ -28,3 +28,11 @@ def make_guess(skylander_name: str):
 def get_daily():
     """Get today's daily Skylander (without spoilers for frontend)"""
     return {"skylander_name": Daily.get_daily_guess()}
+
+@router.get("/skylanders")
+def get_skylanders():
+    """Get list of all Skylander names for autocomplete"""
+    from services.skylanders_data import SkylandersDataService
+    names = SkylandersDataService.get_skylander_names()
+    # Return proper names (not lowercase keys)
+    return {"skylanders": [SkylandersDataService.get_skylander(name).name for name in names]}
