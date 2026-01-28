@@ -1,13 +1,13 @@
 import random
-from datetime import datetime
+from datetime import datetime, timezone
 from services.skylanders_data import SkylandersDataService
 
 class Daily:
     @classmethod
     def get_daily_guess(cls) -> str:
         """Daily Skylander using date-based seeding"""
-        # Use today's date as seed for reproducibility
-        today = datetime.now().strftime("%Y-%m-%d")
+        # Use today's date as seed for reproducibility (UTC for global consistency)
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         
         skylanders = SkylandersDataService().get_skylander_names()
         
