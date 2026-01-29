@@ -10,6 +10,7 @@ class CompareResult(BaseModel):
     element: AttributeComparison
     gender: AttributeComparison
     game: AttributeComparison
+    species: AttributeComparison
 
 class GuessRequest(BaseModel):
     skylander_name: str

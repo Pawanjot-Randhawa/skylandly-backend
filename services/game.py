@@ -36,5 +36,9 @@ class Game:
             game=AttributeComparison(
                 value=user_skylander.game,
                 is_correct=user_skylander.game.lower() == daily_skylander.game.lower()
+            ),
+            species=AttributeComparison(
+                value=user_skylander.species,
+                is_correct=user_skylander.species.lower() == daily_skylander.species.lower()
             )
         )
