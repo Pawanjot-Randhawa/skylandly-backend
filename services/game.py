@@ -1,3 +1,4 @@
+from typing import Optional
 from schemas.skylanders import SkylanderInfo, CompareResult, AttributeComparison
 from core.daily import Daily
 from services.skylanders_data import SkylandersDataService
@@ -11,10 +12,10 @@ class Game:
         return cls.data_service.is_valid_skylander(name)
 
     @classmethod
-    def compare_skylanders(cls, guess: str) -> dict:
+    def compare_skylanders(cls, guess: str, date_str: Optional[str] = None) -> dict:
         """Compare user's guess with daily Skylander"""
 
-        daily_skylander = Daily.get_daily_guess_object()
+        daily_skylander = Daily.get_daily_guess_object(date_str)
         user_skylander = cls.data_service.get_skylander(guess)
 
         if not daily_skylander:

@@ -1,3 +1,4 @@
+from typing import Optional
 from fastapi import APIRouter, Depends, HTTPException
 
 from core.daily import Daily
@@ -10,24 +11,24 @@ router = APIRouter(
 )
 
 @router.post("/guess", response_model=GuessResponse)
-def make_guess(skylander_name: str):
+def make_guess(skylander_name: str, date: Optional[str] = None):
     """
     Endpoint to make a guess about a Skylander.
     """
     if not Game.is_valid_skylander(skylander_name):
         raise HTTPException(status_code=400, detail="Invalid Skylander name")
     
-    comparison = Game.compare_skylanders(skylander_name)
-    is_correct = skylander_name.lower() == Daily.get_daily_guess().lower()
+    comparison = Game.compare_skylanders(skylander_name, date)
+    is_correct = skylander_name.lower() == Daily.get_daily_guess(date).lower()
     return GuessResponse(
         correct=is_correct,
         comparison=comparison
     )
 
 @router.get("/daily")
-def get_daily():
+def get_daily(date: Optional[str] = None):
     """Get today's daily Skylander (without spoilers for frontend)"""
-    return {"skylander_name": Daily.get_daily_guess()}
+    return {"skylander_name": Daily.get_daily_guess(date)}
 
 @router.get("/skylanders")
 def get_skylanders():
