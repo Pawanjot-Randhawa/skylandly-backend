@@ -4,14 +4,17 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from core.config import settings
-from routers import game
+from db.database import create_tables
+from routers import game, history
 from services.skylanders_data import SkylandersDataService
+from models import history as history_models
 
 logging.basicConfig(level=logging.DEBUG)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup actions
+    create_tables()
     SkylandersDataService.load_data()
     yield
     # Shutdown actions
@@ -34,6 +37,7 @@ app.add_middleware(
 )
 
 app.include_router(game.router, prefix=settings.API_PREFIX)
+app.include_router(history.router, prefix=settings.API_PREFIX)
 
 if __name__ == "__main__":
     import uvicorn

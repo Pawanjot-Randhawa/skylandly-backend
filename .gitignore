@@ -12,4 +12,6 @@ wheels/
 # Environment variables
 .env
 
-
+# Local Database files
+*.sqlite3
+*.db
